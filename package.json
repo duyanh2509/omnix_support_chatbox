@@ -5,6 +5,7 @@
   "description": "Open-source AI-native omnichannel customer communication platform",
   "scripts": {
     "dev": "turbo run dev",
+    "dev:backend": "pnpm --filter @omnisupport/backend dev",
     "build": "turbo run build",
     "test": "turbo run test",
     "lint": "turbo run lint",
